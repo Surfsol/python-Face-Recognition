@@ -26,7 +26,7 @@ app.config["DEBUG"] = True
 #   else:
 #       print('This is NOT Bill Gates', results)
 
-arrayOfObj = [
+ arrayOfObj = [
   {
     "img":
       "https://raw.githubusercontent.com/WebDevSimplified/Face-Recognition-JavaScript/master/labeled_images/Hawkeye/1.jpg",
@@ -44,7 +44,7 @@ arrayOfObj = [
       "https://raw.githubusercontent.com/WebDevSimplified/Face-Recognition-JavaScript/master/labeled_images/Hawkeye/1.jpg",
     "verified": 0,
     "adult": 0
-  },
+  }
 ]
 
 def faceLoop(array):
@@ -82,3 +82,33 @@ def classify_image():
   print(data)
 
 app.run()
+
+
+arrayOfObj = [
+  {
+    "img":
+      "https://api.tinify.com/output/1y0gfawpcfrrz2129uw6k8kme88pbr85",
+    "verified": 0,
+    "adult": 0
+  },
+  {
+    "img":
+      "https://api.tinify.com/output/utkmgfk3r88a3dktjnf81crp0faa2pj0",
+    "verified": 0,
+    "adult": 0
+  },
+  {
+    "img":
+      "https://api.tinify.com/output/3de9u8hghghqfmtp96b27rm08y1mkeg6",
+    "verified": 0,
+    "adult": 0
+  },
+   {
+    "img":
+      "https://api.tinify.com/output/czyp4hz9j341wqjcxfcnb3ygtecay45k",
+    "verified": 0,
+    "adult": 0
+  }
+]
+
+{"http://res.cloudinary.com/siingly/image/upload/q_auto:eco/v1616524065/6a419d8a95cda89abeb437498cd84611.png"}
